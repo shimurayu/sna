@@ -49,6 +49,7 @@
 </tr>
 </table>
 <br />
+<a href="sna_kakunin.html">予約</a>
 
 <h2>条件検索</h2>
 　　　<ul>
@@ -161,7 +162,7 @@
 </li>
 <li>場所：<input type="text" name="name" size="30" maxlength="20"></li>
       </ul>
-<p><a href="sna_kakunin.html">予約</a></p>
+<p><a href ="">検索</a>
 </body>
 </html>
 
