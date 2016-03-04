@@ -4,13 +4,15 @@
 <title>SNA予約画面</title>
 </head>
 <body>
-<h1>SNA予約予約画面</h1>
+<h1>SNA予約画面</h1>
 
 <h2>プランを選択してください</h2>
 <table border="1">
 <tr>
  <td>選択</td>
+ <td>国名</td>
  <td>プラン名</td>
+ <td>日程</td>
  <td>予算</td>
  <td>詳細</td>
 </tr>
@@ -19,60 +21,147 @@
 <td>
 <INPUT type="radio" name="plan" value="1">
 </td>
-<td>
-北海道プラン
-</td>
-<td>
-20,000円
-</td>
-<td>
-草花の写真を撮ろう！
-</td>
+<td>オーストラリア</td>
+<td>エアーズロック 6日間</td>
+<td>250,000円</td>
+<td>2016/4/1～/4/6</td>
+<td>リンク</td>
 </tr>
 <tr>
 <td>
 <INPUT type="radio" name="plan" value="2">
 </td>
-<td>
-京都プラン
-</td>
-<td>
-12,000円<font color="red">最安！</font>
-</td>
-<td>
-神社の写真を撮ろう！
-</td>
+<td>中国</td>
+<td>万里の長城 5日間</td>
+<td>180.000円<font color="red">最安！</font></td>
+<td>2016/4/1～4/6</td>
+<td>リンク</td>
 </tr>
 <tr>
 <td>
 <INPUT type="radio" name="plan" value="3">
 </td>
-<td>
-福岡プラン
-</td>
-<td>
-15,000円
-</td>
-<td>
-食べ物の写真を撮ろう！
-</td>
-</tr>
-<tr>
-<td>
-<INPUT type="radio" name="plan" value="3">
-</td>
-<td>
-沖縄プラン
-</td>
-<td>
-25,000円
-</td>
-<td>
-シマンチュの写真を撮ろう！
-</td>
+<td>エジプト</td>
+<td>ピラミッド 7日間</td>
+<td>300,000円</td>
+<td>2016/5/1～5/7</td>
+<td>リンク</td>
 </tr>
 </table>
-<a href="sna_kakunin.html" target="_blank">予約</a>
+<br />
+
+<h2>条件検索</h2>
+　　　<ul>
+        <li>日程：
+<SELECT name="nen">
+<OPTION value="">2016</OPTION>
+<OPTION value="">2017</OPTION>
+<OPTION value="">2018</OPTION>
+</SELECT>年
+<SELECT name="tuki">
+<OPTION value="">1</OPTION>
+<OPTION value="">2</OPTION>
+<OPTION value="">3</OPTION>
+<OPTION value="">4</OPTION>
+<OPTION value="">5</OPTION>
+<OPTION value="">6</OPTION>
+<OPTION value="">7</OPTION>
+<OPTION value="">8</OPTION>
+<OPTION value="">9</OPTION>
+<OPTION value="">10</OPTION>
+<OPTION value="">11</OPTION>
+<OPTION value="">12</OPTION>
+</SELECT>月
+<SELECT name="hi">
+<OPTION value="">1</OPTION>
+<OPTION value="">2</OPTION>
+<OPTION value="">3</OPTION>
+<OPTION value="">4</OPTION>
+<OPTION value="">5</OPTION>
+<OPTION value="">6</OPTION>
+<OPTION value="">7</OPTION>
+<OPTION value="">8</OPTION>
+<OPTION value="">9</OPTION>
+<OPTION value="">10</OPTION>
+<OPTION value="">11</OPTION>
+<OPTION value="">12</OPTION>
+<OPTION value="">13</OPTION>
+<OPTION value="">14</OPTION>
+<OPTION value="">15</OPTION>
+<OPTION value="">16</OPTION>
+<OPTION value="">17</OPTION>
+<OPTION value="">18</OPTION>
+<OPTION value="">19</OPTION>
+<OPTION value="">20</OPTION>
+<OPTION value="">21</OPTION>
+<OPTION value="">22</OPTION>
+<OPTION value="">23</OPTION>
+<OPTION value="">24</OPTION>
+<OPTION value="">25</OPTION>
+<OPTION value="">26</OPTION>
+<OPTION value="">27</OPTION>
+<OPTION value="">28</OPTION>
+<OPTION value="">29</OPTION>
+<OPTION value="">30</OPTION>
+<OPTION value="">31</OPTION>
+</SELECT>日
+～
+<SELECT name="nen">
+<OPTION value="">2016</OPTION>
+<OPTION value="">2017</OPTION>
+<OPTION value="">2018</OPTION>
+</SELECT>年
+<SELECT name="tuki">
+<OPTION value="">1</OPTION>
+<OPTION value="">2</OPTION>
+<OPTION value="">3</OPTION>
+<OPTION value="">4</OPTION>
+<OPTION value="">5</OPTION>
+<OPTION value="">6</OPTION>
+<OPTION value="">7</OPTION>
+<OPTION value="">8</OPTION>
+<OPTION value="">9</OPTION>
+<OPTION value="">10</OPTION>
+<OPTION value="">11</OPTION>
+<OPTION value="">12</OPTION>
+</SELECT>月
+<SELECT name="hi">
+<OPTION value="">1</OPTION>
+<OPTION value="">2</OPTION>
+<OPTION value="">3</OPTION>
+<OPTION value="">4</OPTION>
+<OPTION value="">5</OPTION>
+<OPTION value="">6</OPTION>
+<OPTION value="">7</OPTION>
+<OPTION value="">8</OPTION>
+<OPTION value="">9</OPTION>
+<OPTION value="">10</OPTION>
+<OPTION value="">11</OPTION>
+<OPTION value="">12</OPTION>
+<OPTION value="">13</OPTION>
+<OPTION value="">14</OPTION>
+<OPTION value="">15</OPTION>
+<OPTION value="">16</OPTION>
+<OPTION value="">17</OPTION>
+<OPTION value="">18</OPTION>
+<OPTION value="">19</OPTION>
+<OPTION value="">20</OPTION>
+<OPTION value="">21</OPTION>
+<OPTION value="">22</OPTION>
+<OPTION value="">23</OPTION>
+<OPTION value="">24</OPTION>
+<OPTION value="">25</OPTION>
+<OPTION value="">26</OPTION>
+<OPTION value="">27</OPTION>
+<OPTION value="">28</OPTION>
+<OPTION value="">29</OPTION>
+<OPTION value="">30</OPTION>
+<OPTION value="">31</OPTION>
+</SELECT>日
+</li>
+<li>場所：<input type="text" name="name" size="30" maxlength="20"></li>
+      </ul>
+<p><a href="sna_kakunin.html">予約</a></p>
 </body>
 </html>
 
