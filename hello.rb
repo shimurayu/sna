@@ -1,10 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
-end
+"SNA予約画面へようこそ"
 
-get '/aiit' do
-  "Hi, AIIT"
 end
 
